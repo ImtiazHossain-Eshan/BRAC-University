@@ -1,0 +1,57 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -1.9336618
+xMax = 18.0663382
+xTickUnit = 1
+xGridUnit = 1
+xShowGrid = 1
+yMin = -11.36111964
+yMax = 133.63888036
+yTickUnit = 20
+yGridUnit = 20
+yShowGrid = 1
+yLabel = 
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+Title = Electric Force vs Charge
+
+[PointSeries1]
+FillColor = clAqua
+LineColor = clBlue
+Size = 5
+Style = 0
+LineStyle = 0
+ShowLabels = 1
+LabelPosition = 1
+PointCount = 8
+Points = 10,124.827;9,112.344;8,99.862;7,87.379;6,74.896;5,62.414;4,49.931;3,37.448;
+LegendText = Series 1
+
+[Label1]
+Placement = 1
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil Times New Roman;}{\\f1\\fnil\\fcharset0 Times New Roman;}{\\f2\\fnil\\fcharset161{\\*\\fname Times New Roman;}Times New Roman Greek;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs24 q\\sub\\b0\\f1 2\\nosupersub  \\f0 (\\f2\\'ecC)\\f0\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 4
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs24 F\\sub E \\nosupersub (N)\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 2
+FuncCount = 0
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

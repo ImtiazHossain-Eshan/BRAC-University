@@ -1,0 +1,52 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.01893202
+xMax = 0.16950569
+xTickUnit = 0.01
+xGridUnit = 0.01
+xShowGrid = 1
+xLabel = r (m)
+yMin = -9.85907925
+yMax = 90.14092075
+yTickUnit = 10
+yGridUnit = 10
+yShowGrid = 1
+yLabel = 
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+Title = Electric force vs Distance
+
+[PointSeries1]
+FillColor = clAqua
+LineColor = clBlue
+Size = 5
+Style = 0
+LineStyle = 0
+ShowLabels = 1
+LabelPosition = 1
+PointCount = 8
+Points = 0.1,7.190;0.09,8.877;0.08,11.234;0.07,14.674;0.06,19.972;0.05,28.760;0.04,44.938;0.03,79.889;
+LegendText = Series 1
+
+[Label1]
+Placement = 4
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fnil Arial;}}\n\\viewkind4\\uc1\\pard\\fs28 F\\sub E \\nosupersub (N)\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 0
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

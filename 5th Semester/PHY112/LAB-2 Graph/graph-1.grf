@@ -1,0 +1,53 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.11751324
+xMax = 1.19329077
+xTickUnit = 0.05
+xGridUnit = 0.05
+xShowGrid = 1
+xShowLabel = 0
+xLabel = Distance (r)
+yMin = -2.37764278
+yMax = 57.10372761
+yTickUnit = 5
+yGridUnit = 5
+yShowGrid = 1
+yLabel = E (v)
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+Title = Electric field (E) vs 1/Distance^2 (1/r^2)
+
+[PointSeries1]
+FillColor = clAqua
+LineColor = clBlue
+Size = 5
+Style = 0
+LineStyle = 0
+ShowLabels = 1
+LabelPosition = 1
+PointCount = 8
+Points = 1,53.1;1/4,13.3;1/9,6;1/16,3.37;1/25,2.15;1/36,1.50;1/49,1.10;1/64,0.84;
+LegendText = Series 1
+
+[Label1]
+Placement = 1
+Text = {\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs24 r\\super -2\\nosupersub  (m\\super -2\\nosupersub )\\b0\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 0
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
