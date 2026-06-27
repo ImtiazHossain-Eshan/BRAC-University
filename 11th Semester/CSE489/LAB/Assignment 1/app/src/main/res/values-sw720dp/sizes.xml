@@ -1,0 +1,18 @@
+<resources>
+    <!-- ============================================================
+         TABLET, PORTRAIT  (sw >= 720dp, e.g. Nexus 10 800x1280dp)
+         Larger text / spacing to suit the bigger screen.
+         ============================================================ -->
+    <dimen name="screen_padding">24dp</dimen>
+
+    <dimen name="notes_column_width">280dp</dimen>
+
+    <dimen name="amount_text_size">48sp</dimen>
+    <dimen name="amount_margin_vertical">24dp</dimen>
+
+    <dimen name="note_text_size">28sp</dimen>
+    <dimen name="note_padding_start">32dp</dimen>
+
+    <dimen name="key_text_size">34sp</dimen>
+    <dimen name="key_margin">8dp</dimen>
+</resources>

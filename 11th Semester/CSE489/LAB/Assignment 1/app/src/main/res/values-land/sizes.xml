@@ -1,0 +1,18 @@
+<resources>
+    <!-- ============================================================
+         PHONE, LANDSCAPE  (e.g. Pixel XL 731x411dp)
+         Two-column note table, so it needs a wider left column.
+         ============================================================ -->
+    <dimen name="screen_padding">6dp</dimen>
+
+    <dimen name="notes_column_width">300dp</dimen>
+
+    <dimen name="amount_text_size">24sp</dimen>
+    <dimen name="amount_margin_vertical">6dp</dimen>
+
+    <dimen name="note_text_size">15sp</dimen>
+    <dimen name="note_padding_start">10dp</dimen>
+
+    <dimen name="key_text_size">18sp</dimen>
+    <dimen name="key_margin">3dp</dimen>
+</resources>

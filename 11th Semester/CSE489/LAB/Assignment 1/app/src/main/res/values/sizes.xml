@@ -1,0 +1,18 @@
+<resources>
+    <!-- ============================================================
+         Default dimensions  ->  PHONE, PORTRAIT  (e.g. Pixel XL 411x731dp)
+         ============================================================ -->
+    <dimen name="screen_padding">8dp</dimen>
+
+    <!-- Width reserved for the change table on the left; the keypad fills the rest. -->
+    <dimen name="notes_column_width">130dp</dimen>
+
+    <dimen name="amount_text_size">26sp</dimen>
+    <dimen name="amount_margin_vertical">10dp</dimen>
+
+    <dimen name="note_text_size">16sp</dimen>
+    <dimen name="note_padding_start">12dp</dimen>
+
+    <dimen name="key_text_size">20sp</dimen>
+    <dimen name="key_margin">4dp</dimen>
+</resources>

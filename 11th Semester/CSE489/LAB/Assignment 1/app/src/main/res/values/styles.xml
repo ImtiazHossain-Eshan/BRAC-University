@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- A single note row inside the single-column (portrait) notes list,
+         which is a vertical LinearLayout that distributes rows by weight. -->
+    <style name="NoteText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/note_padding_start</item>
+        <item name="android:paddingLeft">@dimen/note_padding_start</item>
+        <item name="android:textSize">@dimen/note_text_size</item>
+    </style>
+
+    <!-- A single note row inside the two-column (landscape) notes table,
+         which is a GridLayout that distributes cells by row/column weight. -->
+    <style name="NoteTextGrid">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/note_padding_start</item>
+        <item name="android:paddingLeft">@dimen/note_padding_start</item>
+        <item name="android:textSize">@dimen/note_text_size</item>
+    </style>
+
+    <!-- A keypad button inside a GridLayout; fills its (weighted) cell. -->
+    <style name="KeyButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_margin">@dimen/key_margin</item>
+        <item name="android:textSize">@dimen/key_text_size</item>
+    </style>
+
+</resources>

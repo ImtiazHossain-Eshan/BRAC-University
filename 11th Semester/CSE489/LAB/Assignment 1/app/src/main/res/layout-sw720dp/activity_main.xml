@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TABLET / PORTRAIT : single-column note table on the left, 3-column keypad.
+     Same structure as the phone-portrait layout but driven by the larger
+     dimensions in values-sw720dp/sizes.xml. -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding">
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/amount_margin_vertical"
+        android:layout_marginBottom="@dimen/amount_margin_vertical"
+        android:gravity="center"
+        android:text="@string/taka_label"
+        android:textSize="@dimen/amount_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glColumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/notes_column_width" />
+
+    <LinearLayout
+        android:id="@+id/notesContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/glColumn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAmount">
+
+        <TextView android:id="@+id/tv500" style="@style/NoteText" />
+        <TextView android:id="@+id/tv100" style="@style/NoteText" />
+        <TextView android:id="@+id/tv50" style="@style/NoteText" />
+        <TextView android:id="@+id/tv20" style="@style/NoteText" />
+        <TextView android:id="@+id/tv10" style="@style/NoteText" />
+        <TextView android:id="@+id/tv5" style="@style/NoteText" />
+        <TextView android:id="@+id/tv2" style="@style/NoteText" />
+        <TextView android:id="@+id/tv1" style="@style/NoteText" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/keypadContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/glColumn"
+        app:layout_constraintTop_toBottomOf="@id/tvAmount">
+
+        <Button android:id="@+id/btn1" style="@style/KeyButton" android:layout_row="0" android:layout_column="0" android:text="@string/digit_1" />
+        <Button android:id="@+id/btn2" style="@style/KeyButton" android:layout_row="0" android:layout_column="1" android:text="@string/digit_2" />
+        <Button android:id="@+id/btn3" style="@style/KeyButton" android:layout_row="0" android:layout_column="2" android:text="@string/digit_3" />
+
+        <Button android:id="@+id/btn4" style="@style/KeyButton" android:layout_row="1" android:layout_column="0" android:text="@string/digit_4" />
+        <Button android:id="@+id/btn5" style="@style/KeyButton" android:layout_row="1" android:layout_column="1" android:text="@string/digit_5" />
+        <Button android:id="@+id/btn6" style="@style/KeyButton" android:layout_row="1" android:layout_column="2" android:text="@string/digit_6" />
+
+        <Button android:id="@+id/btn7" style="@style/KeyButton" android:layout_row="2" android:layout_column="0" android:text="@string/digit_7" />
+        <Button android:id="@+id/btn8" style="@style/KeyButton" android:layout_row="2" android:layout_column="1" android:text="@string/digit_8" />
+        <Button android:id="@+id/btn9" style="@style/KeyButton" android:layout_row="2" android:layout_column="2" android:text="@string/digit_9" />
+
+        <Button android:id="@+id/btn0" style="@style/KeyButton" android:layout_row="3" android:layout_column="0" android:text="@string/digit_0" />
+        <Button android:id="@+id/btnClear" style="@style/KeyButton" android:layout_row="3" android:layout_column="1" android:layout_columnSpan="2" android:text="@string/clear" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <!-- ============================================================
+         TABLET, LANDSCAPE  (sw >= 720dp, e.g. Nexus 10 1280x800dp)
+         Two-column note table on a wide screen.
+         ============================================================ -->
+    <dimen name="screen_padding">20dp</dimen>
+
+    <dimen name="notes_column_width">560dp</dimen>
+
+    <dimen name="amount_text_size">44sp</dimen>
+    <dimen name="amount_margin_vertical">16dp</dimen>
+
+    <dimen name="note_text_size">26sp</dimen>
+    <dimen name="note_padding_start">28dp</dimen>
+
+    <dimen name="key_text_size">32sp</dimen>
+    <dimen name="key_margin">8dp</dimen>
+</resources>
