@@ -1,0 +1,57 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Imtiaz Hossain
+Student ID: 23101137
+Assignment: 2
+Date: 11 July, 2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[ ] ChatGPT
+[ ] GitHub Copilot
+[x] Google Gemini
+[x] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[x] Learning/understanding concepts
+[x] Debugging my code
+[ ] Generating code snippets
+[ ] Writing text content
+[ ] Design/styling ideas
+[ ] Image generation
+[x] Other: Testing
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+
+Initial setup, minor bug fixes, and testing.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: app/build.gradle.kts   Section: Initial Setup
+File: app/src/main           Section: Bug Fixes
+File: app/src/test           Section: Testing
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: Imtiaz Hossain
+Date: 11 July, 2026

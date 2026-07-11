@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_broadcast">
+
+    <fragment
+        android:id="@+id/nav_broadcast"
+        android:name="com.example.assignment2.ui.broadcast.BroadcastReceiverFragment"
+        android:label="@string/menu_broadcast"
+        tools:layout="@layout/fragment_broadcast" />
+
+    <fragment
+        android:id="@+id/nav_image"
+        android:name="com.example.assignment2.ui.image.ImageScaleFragment"
+        android:label="@string/menu_image"
+        tools:layout="@layout/fragment_image_scale" />
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.example.assignment2.ui.video.VideoFragment"
+        android:label="@string/menu_video"
+        tools:layout="@layout/fragment_video" />
+
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="com.example.assignment2.ui.audio.AudioFragment"
+        android:label="@string/menu_audio"
+        tools:layout="@layout/fragment_audio" />
+
+</navigation>

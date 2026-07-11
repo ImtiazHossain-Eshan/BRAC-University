@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spinner options for the Broadcast Receiver screen (A). -->
+    <string-array name="broadcast_types">
+        <item>@string/broadcast_custom</item>
+        <item>@string/broadcast_battery</item>
+    </string-array>
+</resources>

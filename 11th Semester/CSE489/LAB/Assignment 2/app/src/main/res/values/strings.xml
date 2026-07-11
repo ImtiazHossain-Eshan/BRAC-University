@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CSE 489</string>
+    <string name="nav_header_subtitle">Assignment 2</string>
+    <string name="nav_header_desc">Navigation header icon</string>
+
+    <!-- Drawer menu items -->
+    <string name="menu_broadcast">Broadcast Receiver</string>
+    <string name="menu_image">Image Scale</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_audio">Audio</string>
+
+    <!-- A. Broadcast Receiver fragment -->
+    <string name="select_broadcast_type">Select a broadcast type</string>
+    <string name="proceed">Proceed</string>
+    <string name="broadcast_custom">Custom broadcast receiver</string>
+    <string name="broadcast_battery">System battery notification receiver</string>
+
+    <!-- A.1 Text input (second activity) -->
+    <string name="title_text_input">Custom Broadcast · Input</string>
+    <string name="input_prompt">Type a plain-text message. It will be delivered to a custom broadcast receiver on the next screen.</string>
+    <string name="hint_message">Message to broadcast</string>
+    <string name="send_broadcast">Send broadcast</string>
+    <string name="error_empty_message">Please enter a message first</string>
+
+    <!-- A.1 Custom receiver (third activity) -->
+    <string name="title_custom_receiver">Custom Broadcast · Receiver</string>
+    <string name="waiting_for_broadcast">Waiting for broadcast…</string>
+    <string name="received_label">Received via custom BroadcastReceiver:</string>
+
+    <!-- A.2 Battery receiver (second activity) -->
+    <string name="title_battery">System Battery Receiver</string>
+    <string name="battery_percentage">%1$d%%</string>
+    <string name="battery_unknown">—</string>
+    <string name="battery_charging">Charging</string>
+    <string name="battery_not_charging">Not charging</string>
+    <string name="battery_listening">Listening for ACTION_BATTERY_CHANGED</string>
+
+    <!-- B. Image scale -->
+    <string name="image_content_desc">Zoomable image loaded from the internet</string>
+    <string name="image_hint">Pinch with two fingers to zoom · drag to pan · double-tap to reset</string>
+    <string name="image_load_failed">Could not load the image. Check your internet connection.</string>
+
+    <!-- C. Video -->
+    <string name="video_title">Sample Video</string>
+    <string name="video_error">Unable to play the video.</string>
+
+    <!-- D. Audio -->
+    <string name="audio_title">Sample Audio</string>
+    <string name="audio_error">Unable to load the audio.</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="time_placeholder">00:00 / 00:00</string>
+</resources>
