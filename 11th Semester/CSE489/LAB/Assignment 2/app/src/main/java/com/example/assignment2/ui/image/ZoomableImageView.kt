@@ -10,15 +10,6 @@ import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import androidx.appcompat.widget.AppCompatImageView
 
-/**
- * B. Image scale.
- *
- * An [AppCompatImageView] that supports pinch-to-zoom (and drag-to-pan once zoomed in) by driving
- * an image [Matrix] from a [ScaleGestureDetector]. Double-tap resets the image back to fit.
- *
- * The base "fit to screen" transform is recomputed whenever a new drawable is supplied (for example
- * when Glide finishes loading the image from the internet) or when the view is (re)measured.
- */
 class ZoomableImageView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,

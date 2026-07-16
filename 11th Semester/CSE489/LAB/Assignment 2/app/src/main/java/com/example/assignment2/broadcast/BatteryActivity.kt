@@ -11,12 +11,6 @@ import androidx.core.content.ContextCompat
 import com.example.assignment2.R
 import com.example.assignment2.databinding.ActivityBatteryBinding
 
-/**
- * A.2 — Second activity for the "System battery notification receiver" option.
- *
- * Registers a receiver for the system broadcast [Intent.ACTION_BATTERY_CHANGED] and shows the
- * current battery percentage and charging state.
- */
 class BatteryActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityBatteryBinding

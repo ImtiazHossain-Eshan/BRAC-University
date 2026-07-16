@@ -12,14 +12,6 @@ import com.example.assignment2.broadcast.BatteryActivity
 import com.example.assignment2.broadcast.TextInputActivity
 import com.example.assignment2.databinding.FragmentBroadcastBinding
 
-/**
- * A. Broadcast Receiver.
- *
- * Shows a spinner where the user selects the type of broadcast operation and a button to proceed
- * to the next activity:
- *   - position 0 -> Custom broadcast receiver  -> [TextInputActivity]
- *   - position 1 -> System battery receiver     -> [BatteryActivity]
- */
 class BroadcastReceiverFragment : Fragment() {
 
     private var _binding: FragmentBroadcastBinding? = null

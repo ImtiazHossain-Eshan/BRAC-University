@@ -11,12 +11,6 @@ import androidx.fragment.app.Fragment
 import com.example.assignment2.R
 import com.example.assignment2.databinding.FragmentVideoBinding
 
-/**
- * C. Video.
- *
- * Plays a bundled video inside the app using a [android.widget.VideoView] (backed by MediaPlayer)
- * together with a [MediaController] for play/pause/seek controls.
- */
 class VideoFragment : Fragment() {
 
     private var _binding: FragmentVideoBinding? = null

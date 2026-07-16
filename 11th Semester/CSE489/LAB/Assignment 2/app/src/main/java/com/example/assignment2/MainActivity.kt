@@ -9,10 +9,6 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.assignment2.databinding.ActivityMainBinding
 
-/**
- * Hosts the navigation drawer (Jetpack Navigation component) and swaps between the four
- * drawer destinations: Broadcast Receiver, Image Scale, Video and Audio.
- */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
@@ -25,9 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarMain.toolbar)
 
-        // With FragmentContainerView the NavHostFragment is created by the FragmentManager, so the
-        // NavController must be obtained from the host fragment rather than findNavController(viewId),
-        // which is not yet available in onCreate().
         val navController = navHostFragment().navController
 
         // Every drawer entry is a top-level destination, so each shows the hamburger icon.

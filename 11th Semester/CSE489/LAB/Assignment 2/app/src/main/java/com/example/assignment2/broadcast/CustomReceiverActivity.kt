@@ -8,13 +8,6 @@ import androidx.core.content.ContextCompat
 import com.example.assignment2.R
 import com.example.assignment2.databinding.ActivityCustomReceiverBinding
 
-/**
- * A.1 — Third activity.
- *
- * Creates and registers a custom [CustomBroadcastReceiver]. It then broadcasts the text message
- * that was typed in [TextInputActivity]; the receiver catches that broadcast and displays it,
- * demonstrating a full custom send/receive cycle.
- */
 class CustomReceiverActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCustomReceiverBinding

@@ -4,12 +4,6 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 
-/**
- * A.1 — The custom [BroadcastReceiver].
- *
- * It listens for [ACTION_CUSTOM_BROADCAST] and forwards the plain-text payload (originally typed
- * in [TextInputActivity]) to the hosting activity through the [onMessage] callback.
- */
 class CustomBroadcastReceiver(
     private val onMessage: (String) -> Unit
 ) : BroadcastReceiver() {

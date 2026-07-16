@@ -5,12 +5,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.assignment2.databinding.ActivityTextInputBinding
 
-/**
- * A.1 — Second activity for the "Custom broadcast receiver" option.
- *
- * Takes a plain-text message from the user and passes it on to [CustomReceiverActivity], which
- * delivers it to a custom [android.content.BroadcastReceiver].
- */
 class TextInputActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityTextInputBinding

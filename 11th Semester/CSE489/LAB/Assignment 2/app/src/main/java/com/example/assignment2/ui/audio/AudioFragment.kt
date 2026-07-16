@@ -12,12 +12,6 @@ import androidx.fragment.app.Fragment
 import com.example.assignment2.R
 import com.example.assignment2.databinding.FragmentAudioBinding
 
-/**
- * D. Audio.
- *
- * Plays a bundled audio file inside the app using [MediaPlayer], with play/pause and stop controls
- * and a seek bar that tracks the playback position.
- */
 class AudioFragment : Fragment() {
 
     private var _binding: FragmentAudioBinding? = null
